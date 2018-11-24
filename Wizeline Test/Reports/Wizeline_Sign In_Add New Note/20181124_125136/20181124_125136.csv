@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Wizeline_Sign In_Add New Note,Chrome 70.0.3538.102,,2018-11-24 12:51:38,2018-11-24 12:51:57,19.572s,PASSED
+,,,,,,
+Test Cases/Sign in/Test Case_Sign In Successfully,Chrome 70.0.3538.102,,2018-11-24 12:51:38,2018-11-24 12:51:47,9.568s,PASSED
+Statement - url = url,Chrome 70.0.3538.102,,2018-11-24 12:51:38,2018-11-24 12:51:38,0.008s,PASSED
+Statement - username = username,Chrome 70.0.3538.102,,2018-11-24 12:51:38,2018-11-24 12:51:38,0.001s,PASSED
+Statement - password = password,Chrome 70.0.3538.102,,2018-11-24 12:51:38,2018-11-24 12:51:38,0.002s,PASSED
+callTestCase,Chrome 70.0.3538.102,Call a test case to login,2018-11-24 12:51:38,2018-11-24 12:51:46,8.146s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,Verify user can login successfully,2018-11-24 12:51:46,2018-11-24 12:51:46,0.025s,PASSED
+closeBrowser,Chrome 70.0.3538.102,Close browser,2018-11-24 12:51:46,2018-11-24 12:51:47,1.160s,PASSED
+,,,,,,
+Test Cases/Add New Note/Test Case_Add note,Chrome 70.0.3538.102,,2018-11-24 12:51:47,2018-11-24 12:51:57,9.627s,PASSED
+Statement - url = url,Chrome 70.0.3538.102,,2018-11-24 12:51:48,2018-11-24 12:51:48,0.000s,PASSED
+Statement - username = username,Chrome 70.0.3538.102,,2018-11-24 12:51:48,2018-11-24 12:51:48,0.000s,PASSED
+Statement - password = password,Chrome 70.0.3538.102,,2018-11-24 12:51:48,2018-11-24 12:51:48,0.000s,PASSED
+Statement - now = new java.util.Date(),Chrome 70.0.3538.102,,2018-11-24 12:51:48,2018-11-24 12:51:48,0.012s,PASSED
+"Statement - noteTitle = ""Test Note"" + now",Chrome 70.0.3538.102,,2018-11-24 12:51:48,2018-11-24 12:51:48,0.001s,PASSED
+"Statement - noteDesc = ""Test Descripption "" + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(120)",Chrome 70.0.3538.102,,2018-11-24 12:51:48,2018-11-24 12:51:48,0.000s,PASSED
+callTestCase,Chrome 70.0.3538.102,Call a test case to login,2018-11-24 12:51:48,2018-11-24 12:51:55,7.007s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,Verify user can login successfully,2018-11-24 12:51:55,2018-11-24 12:51:55,0.031s,PASSED
+click,Chrome 70.0.3538.102,Click on Add note button,2018-11-24 12:51:55,2018-11-24 12:51:55,0.070s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,Verify the Add note page display,2018-11-24 12:51:55,2018-11-24 12:51:55,0.025s,PASSED
+setText,Chrome 70.0.3538.102,Input the title,2018-11-24 12:51:55,2018-11-24 12:51:55,0.230s,PASSED
+setText,Chrome 70.0.3538.102,Input the note description,2018-11-24 12:51:55,2018-11-24 12:51:56,0.705s,PASSED
+click,Chrome 70.0.3538.102,Click on Add note button,2018-11-24 12:51:56,2018-11-24 12:51:56,0.084s,PASSED
+"Statement - newLinkObj = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(""Object Repository/Page_My Notes/lnk_My Note""), ""xpath"", ""equals"", //div[@id='my-notes-page']//a/h4[text() = '$noteTitle'], true, STOP_ON_FAILURE)",Chrome 70.0.3538.102,Modify the xpath of the link to My Note,2018-11-24 12:51:56,2018-11-24 12:51:56,0.031s,PASSED
+verifyElementPresent,Chrome 70.0.3538.102,Verify the note is added successfully,2018-11-24 12:51:56,2018-11-24 12:51:56,0.021s,PASSED
+click,Chrome 70.0.3538.102,Click on my note link,2018-11-24 12:51:56,2018-11-24 12:51:56,0.070s,PASSED
+"Statement - actualText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(""Object Repository/Page_Add Note/txb_Note Description""), STOP_ON_FAILURE)",Chrome 70.0.3538.102,Get text of the note description,2018-11-24 12:51:56,2018-11-24 12:51:56,0.055s,PASSED
+verifyMatch,Chrome 70.0.3538.102,Verify the note description is saved correctly,2018-11-24 12:51:56,2018-11-24 12:51:56,0.009s,PASSED
+closeBrowser,Chrome 70.0.3538.102,Close the browser,2018-11-24 12:51:56,2018-11-24 12:51:57,1.144s,PASSED

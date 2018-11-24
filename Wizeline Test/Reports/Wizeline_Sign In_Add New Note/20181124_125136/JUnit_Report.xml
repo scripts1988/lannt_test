@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Wizeline_Sign In_Add New Note" time="19" tests="2" failures="0" errors="0">
+   <testsuite name="Wizeline_Sign In_Add New Note" tests="2" failures="0" errors="0" time="19" timestamp="2018-11-24 12:51:38" hostname="lanngo - HGRYFH2.kms.com.vn" id="Test Suites/Wizeline_Sign In_Add New Note">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\lanngo\\Desktop\\Wizeline Test\\Reports\\Wizeline_Sign In_Add New Note\\20181124_125136"/>
+         <property name="logFiles" value="C:\\Users\\lanngo\\Desktop\\Wizeline Test\\Reports\\Wizeline_Sign In_Add New Note\\20181124_125136\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lanngo - HGRYFH2.kms.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="247d176da29b458bdd8868b00b203437"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Sign in/Test Case_Sign In Successfully" classname="Test Cases/Sign in/Test Case_Sign In Successfully" status="PASSED">
+         <system-out><![CDATA[2018-11-24 12:51:38 - [TEST_CASE][PASSED] - Test Cases/Sign in/Test Case_Sign In Successfully: Test Cases/Sign in/Test Case_Sign In Successfully
+
+2018-11-24 12:51:38 - [TEST_STEP][PASSED] - Statement - url = url: null
+
+2018-11-24 12:51:38 - [TEST_STEP][PASSED] - Statement - username = username: null
+
+2018-11-24 12:51:38 - [TEST_STEP][PASSED] - Statement - password = password: null
+
+2018-11-24 12:51:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sign in/Common_Sign In' successfully
+
+2018-11-24 12:51:38 - [TEST_CASE][PASSED] - Test Cases/Sign in/Common_Sign In: Test Cases/Sign in/Common_Sign In
+
+2018-11-24 12:51:38 - [TEST_STEP][PASSED] - Statement - If (url != null): Current window maximized
+
+2018-11-24 12:51:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://testapp.galenframework.com'
+
+2018-11-24 12:51:44 - [MESSAGE][PASSED] - Browser is opened with url: 'http://testapp.galenframework.com'
+
+2018-11-24 12:51:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - Statement - isVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject("Page_Sign In/txt_UserName"), 15, OPTIONAL): Object 'Object Repository/Page_Sign In/txt_UserName' is visible
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In/txt_UserName' is visible
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - setText: Text 'testuser@example.com' is set on object 'Object Repository/Page_Sign In/txt_UserName'
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Text 'testuser@example.com' is set on object 'Object Repository/Page_Sign In/txt_UserName'
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - setText: Text 'test123' is set on object 'Object Repository/Page_Sign In/txt_Password'
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Page_Sign In/txt_Password'
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/Common_Sign In' successfully
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Sign In/btn_Add note' is present
+
+2018-11-24 12:51:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In/btn_Add note' is present
+
+2018-11-24 12:51:46 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-24 12:51:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add New Note/Test Case_Add note" classname="Test Cases/Add New Note/Test Case_Add note" status="PASSED">
+         <system-out><![CDATA[2018-11-24 12:51:47 - [TEST_CASE][PASSED] - Test Cases/Add New Note/Test Case_Add note: Test Cases/Add New Note/Test Case_Add note
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - url = url: null
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - username = username: null
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - password = password: null
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - now = new java.util.Date(): null
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - noteTitle = "Test Note" + now: null
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - noteDesc = "Test Descripption " + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(120): null
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sign in/Common_Sign In' successfully
+
+2018-11-24 12:51:48 - [TEST_CASE][PASSED] - Test Cases/Sign in/Common_Sign In: Test Cases/Sign in/Common_Sign In
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - Statement - If (url != null): Current window maximized
+
+2018-11-24 12:51:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://testapp.galenframework.com'
+
+2018-11-24 12:51:53 - [MESSAGE][PASSED] - Browser is opened with url: 'http://testapp.galenframework.com'
+
+2018-11-24 12:51:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-24 12:51:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-24 12:51:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:54 - [TEST_STEP][PASSED] - Statement - isVisible = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.waitForElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject("Page_Sign In/txt_UserName"), 15, OPTIONAL): Object 'Object Repository/Page_Sign In/txt_UserName' is visible
+
+2018-11-24 12:51:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In/txt_UserName' is visible
+
+2018-11-24 12:51:54 - [TEST_STEP][PASSED] - setText: Text 'testuser@example.com' is set on object 'Object Repository/Page_Sign In/txt_UserName'
+
+2018-11-24 12:51:54 - [MESSAGE][PASSED] - Text 'testuser@example.com' is set on object 'Object Repository/Page_Sign In/txt_UserName'
+
+2018-11-24 12:51:54 - [TEST_STEP][PASSED] - setText: Text 'test123' is set on object 'Object Repository/Page_Sign In/txt_Password'
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Text 'test123' is set on object 'Object Repository/Page_Sign In/txt_Password'
+
+2018-11-24 12:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/btn_Login' is clicked on
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sign in/Common_Sign In' successfully
+
+2018-11-24 12:51:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Sign In/btn_Add note' is present
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Sign In/btn_Add note' is present
+
+2018-11-24 12:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Sign In/btn_Add note' is clicked on
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign In/btn_Add note' is clicked on
+
+2018-11-24 12:51:55 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_Add Note/txt_Note Title' is present
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Add Note/txt_Note Title' is present
+
+2018-11-24 12:51:55 - [TEST_STEP][PASSED] - setText: Text 'Test NoteSat Nov 24 12:51:48 ICT 2018' is set on object 'Object Repository/Page_Add Note/txt_Note Title'
+
+2018-11-24 12:51:55 - [MESSAGE][PASSED] - Text 'Test NoteSat Nov 24 12:51:48 ICT 2018' is set on object 'Object Repository/Page_Add Note/txt_Note Title'
+
+2018-11-24 12:51:55 - [TEST_STEP][PASSED] - setText: Text 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b' is set on object 'Object Repository/Page_Add Note/txb_Note Description'
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Text 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b' is set on object 'Object Repository/Page_Add Note/txb_Note Description'
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Add Note/btn_Add Note' is clicked on
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Add Note/btn_Add Note' is clicked on
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - Statement - newLinkObj = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject("Object Repository/Page_My Notes/lnk_My Note"), "xpath", "equals", //div[@id='my-notes-page']//a/h4[text() = '$noteTitle'], true, STOP_ON_FAILURE): Modify property of object successfully
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_My Notes/lnk_My Note' is present
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Notes/lnk_My Note' is present
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My Notes/lnk_My Note' is clicked on
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Notes/lnk_My Note' is clicked on
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - Statement - actualText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject("Object Repository/Page_Add Note/txb_Note Description"), STOP_ON_FAILURE): Text of object 'Object Repository/Page_Add Note/txb_Note Description' is: 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b'
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Add Note/txb_Note Description' is: 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b'
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b' and expected text 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b' are matched 
+
+2018-11-24 12:51:56 - [MESSAGE][PASSED] - Actual text 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b' and expected text 'Test Descripption orV92nz1RzD4Z2OqYXvVyIWsBrI4Fp6omox7QaoLIa7VRn5NSgT4AQjVguWBYWhuQH0bOeO9VQPp6J0GgXTUON88moLNwEpCGm6JKflA9ObovoMLadSxDj6b' are matched 
+
+2018-11-24 12:51:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-24 12:51:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-24 12:51:38 - [TEST_SUITE][PASSED] - Wizeline_Sign In_Add New Note: Test Cases/Add New Note/Test Case_Add note]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Wizeline_Sign In_Add New Note,Firefox 61.0,,2018-11-24 12:52:56,2018-11-24 12:53:33,36.485s,PASSED
+,,,,,,
+Test Cases/Sign in/Test Case_Sign In Successfully,Firefox 61.0,,2018-11-24 12:52:57,2018-11-24 12:53:15,18.175s,PASSED
+Statement - url = url,Firefox 61.0,,2018-11-24 12:52:57,2018-11-24 12:52:57,0.001s,PASSED
+Statement - username = username,Firefox 61.0,,2018-11-24 12:52:57,2018-11-24 12:52:57,0.001s,PASSED
+Statement - password = password,Firefox 61.0,,2018-11-24 12:52:57,2018-11-24 12:52:57,0.002s,PASSED
+callTestCase,Firefox 61.0,Call a test case to login,2018-11-24 12:52:57,2018-11-24 12:53:10,12.715s,PASSED
+verifyElementPresent,Firefox 61.0,Verify user can login successfully,2018-11-24 12:53:10,2018-11-24 12:53:10,0.031s,PASSED
+delay,Firefox 61.0,Delay for a few seconds,2018-11-24 12:53:10,2018-11-24 12:53:15,5.012s,PASSED
+closeBrowser,Firefox 61.0,Close browser,2018-11-24 12:53:15,2018-11-24 12:53:15,0.228s,PASSED
+,,,,,,
+Test Cases/Add New Note/Test Case_Add note,Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:33,17.958s,PASSED
+Statement - url = url,Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:15,0.000s,PASSED
+Statement - username = username,Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:15,0.000s,PASSED
+Statement - password = password,Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:15,0.000s,PASSED
+Statement - now = new java.util.Date(),Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:15,0.000s,PASSED
+"Statement - noteTitle = ""Test Note"" + now",Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:15,0.000s,PASSED
+"Statement - noteDesc = ""Test Descripption "" + org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(120)",Firefox 61.0,,2018-11-24 12:53:15,2018-11-24 12:53:15,0.000s,PASSED
+callTestCase,Firefox 61.0,Call a test case to login,2018-11-24 12:53:15,2018-11-24 12:53:26,11.332s,PASSED
+verifyElementPresent,Firefox 61.0,Verify user can login successfully,2018-11-24 12:53:26,2018-11-24 12:53:26,0.000s,PASSED
+click,Firefox 61.0,Click on Add note button,2018-11-24 12:53:26,2018-11-24 12:53:26,0.261s,PASSED
+verifyElementPresent,Firefox 61.0,Verify the Add note page display,2018-11-24 12:53:26,2018-11-24 12:53:27,0.013s,PASSED
+setText,Firefox 61.0,Input the title,2018-11-24 12:53:27,2018-11-24 12:53:27,0.097s,PASSED
+setText,Firefox 61.0,Input the note description,2018-11-24 12:53:27,2018-11-24 12:53:27,0.184s,PASSED
+click,Firefox 61.0,Click on Add note button,2018-11-24 12:53:27,2018-11-24 12:53:27,0.325s,PASSED
+"Statement - newLinkObj = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(""Object Repository/Page_My Notes/lnk_My Note""), ""xpath"", ""equals"", //div[@id='my-notes-page']//a/h4[text() = '$noteTitle'], true, STOP_ON_FAILURE)",Firefox 61.0,Modify the xpath of the link to My Note,2018-11-24 12:53:27,2018-11-24 12:53:27,0.060s,PASSED
+verifyElementPresent,Firefox 61.0,Verify the note is added successfully,2018-11-24 12:53:27,2018-11-24 12:53:27,0.009s,PASSED
+click,Firefox 61.0,Click on my note link,2018-11-24 12:53:27,2018-11-24 12:53:27,0.236s,PASSED
+"Statement - actualText = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(""Object Repository/Page_Add Note/txb_Note Description""), STOP_ON_FAILURE)",Firefox 61.0,Get text of the note description,2018-11-24 12:53:27,2018-11-24 12:53:27,0.035s,PASSED
+verifyMatch,Firefox 61.0,Verify the note description is saved correctly,2018-11-24 12:53:27,2018-11-24 12:53:27,0.026s,PASSED
+delay,Firefox 61.0,Delay for a few seconds,2018-11-24 12:53:27,2018-11-24 12:53:32,5.002s,PASSED
+closeBrowser,Firefox 61.0,Close the browser,2018-11-24 12:53:32,2018-11-24 12:53:33,0.249s,PASSED
